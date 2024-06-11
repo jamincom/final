@@ -1,0 +1,465 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Zen+Dots&display=swap');
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+::selection {
+            background-color: #6AC1CC; /* 배경색 설정 */
+            color: #fff; /* 텍스트 색상 설정 */
+        }
+
+        /* 웹킷 기반 브라우저 (Chrome, Safari)에서 선택한 텍스트의 스타일 */
+        ::-webkit-selection {
+            background-color: #6AC1CC;
+            color: #fff;
+        }
+.fade {animation: fadein 1s ease-in-out forwards;}
+@keyframes fadein{
+  from{left: 200px; opacity: 0;}
+  to{left: 100px; opacity: 1;}
+}
+html,section{scroll-behavior: smooth;}
+body,html,section,body,h1,h2,h3,h4,h5,h6,h7,h8,h9,p,ul,nav,label{margin: 0; padding: 0;}
+body,html{background-color: #DBD5D4;}
+body {overflow-y: auto; /* 수직 스크롤을 허용하고 */
+    overflow-x: hidden; /* 수평 스크롤은 숨깁니다 */}
+
+    footer {background-color: #424040;
+      color: #DBD5D4;
+      padding-top: 200px;
+      text-align: right;}
+
+h1 {position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            text-align: center;
+            color: #EF3F3F;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            word-break: keep-all;}
+
+
+            h5 {position: absolute;
+            top: 0;
+
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            text-align: center;
+            color: #EF3F3F;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            word-break: keep-all;}
+
+             h6 {position: absolute;
+            top: 0;
+
+            left: 0;
+            bottom: 0;
+            margin: auto;
+            text-align: center;
+            color: #EF3F3F;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            word-break: keep-all;}
+
+
+h2 {font-size: 25px;}
+
+
+nav {
+  position: sticky;
+  top: 0;
+z-index: 1000;}
+
+h3 {position: sticky;
+      top: 0px;
+      z-index: 1;
+      display: block;
+      mix-blend-mode: darken;}
+h4 {position: absolute;
+            top: -550px; /* 원하는 위치로 조정 */
+            left: 0;
+            right: auto; /* 자동으로 설정하여 left와 충돌 방지 */
+            bottom: auto; /* 자동으로 설정하여 top와 충돌 방지 */
+            margin: auto;
+            text-align: left; /* 텍스트 왼쪽 정렬 */
+            color: black;
+            word-break: keep-all;
+       }
+
+.forksticy {
+      position: sticky;
+      top: 75px;
+      z-index: 1;
+      display: block;
+      mix-blend-mode: darken;
+      background-color: white; /* sticky element의 배경색을 설정하여 다른 콘텐츠와 구분되도록 함 */
+    }
+
+.container {
+
+    height: 3000px;
+  }
+
+.forkflex {
+      display: flex;
+     justify-content: space-between;}
+
+
+
+.padb150 {padding-bottom: 150px;}
+
+
+.px200 {font-size: 200px; padding-bottom: 70px}
+.w500 {width: 400px}
+.w1000 {width: 1000px}
+
+.spB {font-family: 'Spoqa Han Sans Neo', 'sans-serif'; font-weight: bold;}
+.spL {font-family: 'Spoqa Han Sans Neo', 'sans-serif'; font-weight: 100;}
+
+.zen {
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 100;
+  font-style: normal; z-index: 1000;}
+.hub {
+  font-family: "Hubballi", sans-serif;
+  font-style: normal;
+}
+
+#la1{display: block; width: 20px; height: 20px; background: red; line-height: 20px;}
+
+.wrap {
+  margin: auto;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 0;}
+
+.dogazi { position: relative;
+            z-index: 10;}
+
+.red {color: #EF3F3F; mix-blend-mode: darken;}
+.black {color: black; }
+
+.darkim {mix-blend-mode: darken;
+    align-items: center; max-width: 100%;}
+
+.padt50 {padding-top: 50px;}
+.padt100 {padding-top: 100px;}
+.padt150 {padding-top: 150px;}
+.padt200 {padding-top: 200px;}
+.padt250 {padding-top: 250px;}
+.padt300 {padding-top: 300px;}
+.padt500 {padding-top: 500px;}
+
+        .ftx2 {
+            position: absolute; /* 절대 위치 */
+            right: -1100px; /* 오른쪽 끝에 붙임 */
+            top: -300px;
+            padding: 0; /* 내부 여백 제거 */
+            text-align: left; /* 텍스트 왼쪽 정렬 */
+            color: black;
+            word-break: keep-all;
+        }
+
+
+
+.dark img {display: block;
+            mix-blend-mode: darken; /* 어둡게 하기 효과 적용 */
+            transform: scale(1.1);}
+
+.darktx {display: block; mix-blend-mode: darken; /* 어둡게 하기 효과 적용 */}
+
+
+.flex {display: flex;  gap: 0; align-items: flex-end; justify-content: center;}
+.navflex {display: flex;  gap: 0; align-items: center;  justify-content: space-between;}
+.naflex {display: flex;  gap: 0; align-items: center;}
+
+.caaflex {display: flex;  gap: 0; justify-content: center;  align-self: flex-start;}
+.caacenter {align-items: center; }
+.pflex {display: flex;  gap: 90px; justify-content: center;  align-self: flex-start;}
+   
+ 
+.menu{font-size: 25px;}
+  .menu li{list-style-type: none;}
+  .menu li a{display: block; padding-top: 25px; padding-bottom: 25px; text-decoration: none; color: black;}
+  .menu li a:hover{color: #EF3F3F; mix-blend-mode: darken;}
+
+  .doip { background-image: url(../img/chessmin.gif);
+background-size: cover;
+  background-position: center;
+  padding: 450px;
+  mix-blend-mode: darken;
+  z-index: 0;
+ }
+
+.caa1 {position: absolute;  text-align: left; }
+
+ .doiptx {font-size: 40px; width: 1000px; padding-top: 1800px; line-height: 150%; z-index: 2000}
+ .caatx {font-size: 120px;  padding-top: 5050px; line-height: 150%; 
+  text-align: left; padding-left: 100px;
+z-index: 2;}
+.ptx {font-size: 120px;  padding-top: 22800px; line-height: 150%; 
+  text-align: left; padding-left: 100px;
+z-index: 2;}
+
+
+ .bontx {font-size: font-size: 20px;
+    line-height: 150%;
+    text-align: left;
+    padding: 20px 20px 20px 20px; /* 패딩을 추가하여 텍스트 주위에 여백을 만듭니다 */
+    position: absolute; /* 텍스트를 절대 위치로 설정 */
+    left: 100px; /* 원하는 위치로 조정 */
+    background-color: white; /* 반투명한 배경색을 추가 */}
+ 
+ .forktx { font-size: 80px;  padding-top: 0px; line-height: 150%; 
+  width: 400px;
+z-index: 2;}
+ .forktx2 {font-size: 120px;  padding-top: 0px; line-height: 150%; 
+  text-align: center; width: 400px;
+z-index: 2;}
+
+ .forktx20 {font-size: 120px;  padding-top: 0px; line-height: 150%; 
+  text-align: right; width: 400px; right: 0;
+z-index: 2;}
+ .forktx202 {font-size: 120px;  padding-top: 0px; line-height: 150%; 
+  text-align: left; width: 800px; 
+z-index: 2;}
+
+ .forktx3 {font-size: 120px;  padding-top: 0px; line-height: 150%; 
+  text-align: center; w
+z-index: 2;}
+
+ .forktx4 {font-size: 80px;  padding-top: 0px; line-height: 150%; 
+z-index: 2;}
+
+.ftx { text-align: left;
+    position: absolute; /* 절대 위치 */
+            left: 0; /* 왼쪽 끝으로 정렬 */
+            padding: 0px;}
+
+
+.forkim    {position: absolute; /* 절대 위치 설정 */
+            top: 5000px; /* 상단 위치 */
+            
+        }
+
+
+
+.top3200 {top: 3200px; /* 원하는 위치로 조정 */}
+.top3500 {top: 3450px; /* 원하는 위치로 조정 */}
+.top4200 {top: 4800px; /* 원하는 위치로 조정 */}
+
+
+.image-stack {
+    position: relative;
+    height: fit-content;
+}
+
+.image-bottom,
+.image-middle {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image-middle {
+    transform: rotate(-17.5deg); /* 이미지 중첩시 회전 */
+}
+
+.text-overlay1 {
+    position: absolute;
+    top: 3300px; /* 텍스트 오버레이의 위치를 조정 */
+    left: 100px; /* 텍스트 오버레이의 위치를 조정 */
+    background-color: rgba(219, 213, 212, 1); /* 반투명한 배경색 */
+    width: 450px;
+    height: 150px;
+    z-index: 100;
+    margin-left: 0;
+   transition: background-color 0.3s ease;}
+
+.text-overlay1:hover {
+  color: #DBD5D4;
+            background-color: rgba(239, 63, 63, 1); /* 호버 시 배경색 변경 */
+            backdrop-filter: blur(2px); /* 호버 시 블러 처리 */
+            mix-blend-mode: darken; 
+        }
+
+
+    .text-overlay2 {
+    position: absolute;
+    top: 3550px; /* 텍스트 오버레이의 위치를 조정 */
+    left: 100px; /* 텍스트 오버레이의 위치를 조정 */
+    background-color: rgba(219, 213, 212, 1); /* 반투명한 배경색 */
+    width: 250px;
+    height: 30px;
+    z-index: 100;
+    margin-left: 0;transition: background-color 0.3s ease;}
+
+    .text-overlay2:hover {
+  color: #DBD5D4;
+            background-color: rgba(239, 63, 63, 1); /* 호버 시 배경색 변경 */
+            backdrop-filter: blur(2px); /* 호버 시 블러 처리 */
+            mix-blend-mode: darken; 
+        }
+
+    .text-overlay3 {
+    position: absolute;
+    top: 3680px; /* 텍스트 오버레이의 위치를 조정 */
+    left: 100px; /* 텍스트 오버레이의 위치를 조정 */
+    background-color: rgba(219, 213, 212, 1); /* 반투명한 배경색 */
+    width: 340px;
+    height: 30px;
+    z-index: 100;
+    margin-left: 0;transition: background-color 0.3s ease;}
+
+    .text-overlay3:hover {
+  color: #DBD5D4;
+            background-color: rgba(239, 63, 63, 1); /* 호버 시 배경색 변경 */
+            backdrop-filter: blur(2px); /* 호버 시 블러 처리 */
+            mix-blend-mode: darken; 
+        }
+
+    .text-overlay4 {
+    position: absolute;
+    top: 3810px; /* 텍스트 오버레이의 위치를 조정 */
+    left: 100px; /* 텍스트 오버레이의 위치를 조정 */
+    background-color: rgba(219, 213, 212, 1); /* 반투명한 배경색 */
+    width: 780px;
+    height: 30px;
+    z-index: 100;
+    margin-left: 0;transition: background-color 0.3s ease;}
+
+    .text-overlay4:hover {
+  color: #DBD5D4;
+            background-color: rgba(239, 63, 63, 1); /* 호버 시 배경색 변경 */
+            backdrop-filter: blur(2px); /* 호버 시 블러 처리 */
+            mix-blend-mode: darken; 
+        }
+
+        .text-overlay5 {
+    position: absolute;
+    top: 3940px; /* 텍스트 오버레이의 위치를 조정 */
+    left: 100px; /* 텍스트 오버레이의 위치를 조정 */
+    background-color: rgba(219, 213, 212, 1); /* 반투명한 배경색 */
+    width: 260px;
+    height: 30px;
+    z-index: 100;
+    margin-left: 0;transition: background-color 0.3s ease;}
+
+    .text-overlay5:hover {
+  color: #DBD5D4;
+            background-color: rgba(239, 63, 63, 1); /* 호버 시 배경색 변경 */
+            backdrop-filter: blur(2px); /* 호버 시 블러 처리 */
+            mix-blend-mode: darken; 
+        }
+
+    .text-overlay6 {
+    position: absolute;
+    top: 4300px; /* 텍스트 오버레이의 위치를 조정 */
+    left: 100px; /* 텍스트 오버레이의 위치를 조정 */
+    background-color: rgba(219, 213, 212, 1); /* 반투명한 배경색 */
+    width: 550px;
+    height: 150px;
+    z-index: 100;
+    margin-right: 100px;
+  text-align: right;transition: background-color 0.3s ease;}
+
+  .text-overlay6:hover {
+  color: #DBD5D4;
+            background-color: rgba(106, 193, 204, 1); /* 호버 시 배경색 변경 */
+            backdrop-filter: blur(2px); /* 호버 시 블러 처리 */
+            mix-blend-mode: darken; 
+        }
+
+  .text-overlay7 {
+    position: absolute;
+    top: 4550px; /* 텍스트 오버레이의 위치를 조정 */
+    left: 100px; /* 텍스트 오버레이의 위치를 조정 */
+    background-color: rgba(219, 213, 212, 1); /* 반투명한 배경색 */
+    width: 200px;
+    height: 30px;
+    z-index: 100;
+    margin-right: 100px;
+  text-align: right;transition: background-color 0.3s ease;}
+
+  .text-overlay7:hover {
+  color: #DBD5D4;
+            background-color: rgba(106, 193, 204, 1); /* 호버 시 배경색 변경 */
+            backdrop-filter: blur(2px); /* 호버 시 블러 처리 */
+            mix-blend-mode: darken; 
+        }
+
+    .text-overlay8 {
+    position: absolute;
+    top: 4680px; /* 텍스트 오버레이의 위치를 조정 */
+    left: 100px; /* 텍스트 오버레이의 위치를 조정 */
+    background-color: rgba(219, 213, 212, 1); /* 반투명한 배경색 */
+    width: 430px;
+    height: 30px;
+    z-index: 100;
+    margin-right: 100px;
+  text-align: right;transition: background-color 0.3s ease;}
+
+  .text-overlay8:hover {
+  color: #DBD5D4;
+            background-color: rgba(106, 193, 204, 1); /* 호버 시 배경색 변경 */
+            backdrop-filter: blur(2px); /* 호버 시 블러 처리 */
+            mix-blend-mode: darken; 
+        }
+
+    .text-overlay9 {
+    position: absolute;
+    top: 4810px; /* 텍스트 오버레이의 위치를 조정 */
+    left: 100px; /* 텍스트 오버레이의 위치를 조정 */
+    background-color: rgba(219, 213, 212, 1); /* 반투명한 배경색 */
+    width: 520px;
+    height: 30px;
+    z-index: 100;
+    margin-right: 100px;
+  text-align: right;transition: background-color 0.3s ease;}
+
+  .text-overlay9:hover {
+  color: #DBD5D4;
+            background-color: rgba(106, 193, 204, 1); /* 호버 시 배경색 변경 */
+            backdrop-filter: blur(2px); /* 호버 시 블러 처리 */
+            mix-blend-mode: darken; 
+        }
+
+  .image {
+            transition: transform 0.3s ease; /* 변환 애니메이션 설정 */
+        }
+ .image:hover {
+            transform: rotate(20deg); /* 호버 시 20도 회전 */
+        }
+
+
+ .caa img {display: block;
+           mix-blend-mode: darken;
+           rotate: -17.5deg;
+           margin: 20px;
+           position: relative;
+           z-index: 0;}
+
+
+ .prec img {display: block;
+           mix-blend-mode: darken;
+           margin: 0px;
+           position: relative;
+           align-items: center;
+           z-index: 0;}
+
+
